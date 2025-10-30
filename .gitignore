@@ -23,6 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-# Font Awesome License Token
-.npmrc
+# Font Awesome License Token (use env-based .npmrc committed to repo)
 
