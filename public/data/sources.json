@@ -1,0 +1,165 @@
+[
+  {
+    "id": "us-vpi",
+    "label": "US — VPI",
+    "flag": "🇺🇸",
+    "providerType": "VPI"
+  },
+  {
+    "id": "us-ndpsr",
+    "label": "US — NDPSR",
+    "flag": "🇺🇸",
+    "providerType": "Government"
+  },
+  {
+    "id": "eu-vpi",
+    "label": "EU — VPI",
+    "flag": "🇪🇺",
+    "providerType": "VPI"
+  },
+  {
+    "id": "eu-dairy-market-news",
+    "label": "EU — Dairy market news",
+    "flag": "🇪🇺",
+    "providerType": "Government"
+  },
+  {
+    "id": "oceania-gdt",
+    "label": "Oceania — GDT",
+    "flag": "🇳🇿",
+    "providerType": "Market"
+  },
+  {
+    "id": "east-eu-vpi",
+    "label": "East-EU (VPI)",
+    "flag": "🇳🇱",
+    "providerType": "VPI"
+  },
+  {
+    "id": "nz-vpi",
+    "label": "New Zealand — VPI",
+    "flag": "🇳🇿",
+    "providerType": "VPI"
+  },
+  {
+    "id": "au-dairy-australia",
+    "label": "Australia — Dairy Australia",
+    "flag": "🇦🇺",
+    "providerType": "Industry"
+  },
+  {
+    "id": "ca-vpi",
+    "label": "Canada — VPI",
+    "flag": "🇨🇦",
+    "providerType": "VPI"
+  },
+  {
+    "id": "ar-senasa",
+    "label": "Argentina — SENASA",
+    "flag": "🇦🇷",
+    "providerType": "Government"
+  },
+  {
+    "id": "br-vpi",
+    "label": "Brazil — VPI",
+    "flag": "🇧🇷",
+    "providerType": "VPI"
+  },
+  {
+    "id": "ch-vpi",
+    "label": "Switzerland — VPI",
+    "flag": "🇨🇭",
+    "providerType": "VPI"
+  },
+  {
+    "id": "fr-france-agrimer",
+    "label": "France — FranceAgriMer",
+    "flag": "🇫🇷",
+    "providerType": "Government"
+  },
+  {
+    "id": "de-dlv",
+    "label": "Germany — DLV",
+    "flag": "🇩🇪",
+    "providerType": "Industry"
+  },
+  {
+    "id": "nl-vpi",
+    "label": "Netherlands — VPI",
+    "flag": "🇳🇱",
+    "providerType": "VPI"
+  },
+  {
+    "id": "pl-kowr",
+    "label": "Poland — KOWR",
+    "flag": "🇵🇱",
+    "providerType": "Government"
+  },
+  {
+    "id": "gb-dairy-uk",
+    "label": "UK — Dairy UK",
+    "flag": "🇬🇧",
+    "providerType": "Industry"
+  },
+  {
+    "id": "ie-teagasc",
+    "label": "Ireland — Teagasc",
+    "flag": "🇮🇪",
+    "providerType": "Government"
+  },
+  {
+    "id": "dk-danish-dairy",
+    "label": "Denmark — Danish Dairy",
+    "flag": "🇩🇰",
+    "providerType": "Industry"
+  },
+  {
+    "id": "it-ismea",
+    "label": "Italy — ISMEA",
+    "flag": "🇮🇹",
+    "providerType": "Government"
+  },
+  {
+    "id": "in-amul",
+    "label": "India — AMUL",
+    "flag": "🇮🇳",
+    "providerType": "Market"
+  },
+  {
+    "id": "cn-ndrc",
+    "label": "China — NDRC",
+    "flag": "🇨🇳",
+    "providerType": "Government"
+  },
+  {
+    "id": "ru-rosstat",
+    "label": "Russia — Rosstat",
+    "flag": "🇷🇺",
+    "providerType": "Government"
+  },
+  {
+    "id": "my-mpob",
+    "label": "Malaysia — MPOB",
+    "flag": "🇲🇾",
+    "providerType": "Government"
+  },
+  {
+    "id": "id-paspi",
+    "label": "Indonesia — PASPI",
+    "flag": "🇮🇩",
+    "providerType": "Government"
+  },
+  {
+    "id": "ua-vpi",
+    "label": "Ukraine — VPI",
+    "flag": "🇺🇦",
+    "providerType": "VPI"
+  },
+  {
+    "id": "mx-sagarpa",
+    "label": "Mexico — SAGARPA",
+    "flag": "🇲🇽",
+    "providerType": "Government"
+  }
+]
+

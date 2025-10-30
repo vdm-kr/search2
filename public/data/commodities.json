@@ -1,0 +1,1933 @@
+[
+  {
+    "id": "butter",
+    "name": "Butter",
+    "description": "Dairy product made from churned cream, used in cooking and baking.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "imports",
+      "supply-demand"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "ca-vpi",
+      "eu-vpi",
+      "nl-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "imports": "current",
+        "supply-demand": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "imports": "current",
+        "supply-demand": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "outdated",
+        "exports": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "outdated",
+        "exports": "current",
+        "imports": "current",
+        "supply-demand": "current"
+      },
+      "nl-vpi": {
+        "exports": "current"
+      }
+    }
+  },
+  {
+    "id": "butter-82",
+    "name": "Butter, 82%",
+    "description": "Standard butterfat content butter, commonly used in food industry.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-dairy-market-news",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "supply-demand": "current"
+      },
+      "eu-dairy-market-news": {
+        "ai-forecast": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "supply-demand": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "butterfat-class-i",
+    "name": "Butterfat, Class I",
+    "description": "Premium grade butterfat used in high-quality dairy products.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "imports",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "imports": "current",
+        "supply-demand": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "imports": "outdated",
+        "supply-demand": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current",
+        "exports": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "imports": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "outdated",
+        "exports": "outdated",
+        "imports": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "butterfat-class-ii",
+    "name": "Butterfat, Class II",
+    "description": "Standard grade butterfat for general dairy applications.",
+    "availableDataTypes": [
+      "futures",
+      "imports"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "ca-vpi",
+      "eu-dairy-market-news",
+      "eu-vpi",
+      "nz-vpi",
+      "us-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "imports": "current"
+      },
+      "us-vpi": {
+        "futures": "current"
+      },
+      "nz-vpi": {
+        "futures": "current",
+        "imports": "current"
+      },
+      "ca-vpi": {
+        "futures": "current",
+        "imports": "outdated"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "imports": "current"
+      },
+      "eu-dairy-market-news": {
+        "imports": "current"
+      },
+      "ar-senasa": {
+        "imports": "current"
+      }
+    }
+  },
+  {
+    "id": "bmp",
+    "name": "BMP (Buttermilk Powder)",
+    "description": "Powdered buttermilk residue from butter production, used in food and feed.",
+    "availableDataTypes": [
+      "exports",
+      "price"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "outdated",
+        "price": "outdated"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "exports": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "cheddar",
+    "name": "Cheddar cheese",
+    "description": "Hard, aged cheese with distinct flavor, one of the most popular cheese types.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price",
+      "supply-demand"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "ch-vpi",
+      "eu-vpi",
+      "nl-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "ch-vpi": {
+        "price": "current"
+      },
+      "nl-vpi": {
+        "price": "current",
+        "exports": "current"
+      }
+    }
+  },
+  {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "description": "Fresh, soft cheese traditionally used in Italian cuisine and pizza.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "br-vpi",
+      "ca-vpi",
+      "east-eu-vpi",
+      "eu-dairy-market-news",
+      "eu-vpi",
+      "nz-vpi",
+      "us-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "eu-dairy-market-news": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "outdated",
+        "production": "current",
+        "supply-demand": "outdated"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "outdated"
+      },
+      "east-eu-vpi": {
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "cream-cheese",
+    "name": "Cream cheese",
+    "description": "Soft, spreadable cheese made from cream, widely used in desserts.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "ch-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "ch-vpi": {
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "skim-milk-powder",
+    "name": "Skim milk powder",
+    "description": "Dried milk product with fat removed, used in food manufacturing.",
+    "availableDataTypes": [
+      "exports",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "exports": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "exports": "current",
+        "futures": "outdated",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "whole-milk-powder",
+    "name": "Whole milk powder",
+    "description": "Dried whole milk product preserved through dehydration.",
+    "availableDataTypes": [
+      "exports",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "exports": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "exports": "outdated",
+        "price": "current"
+      },
+      "br-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "whey-protein-concentrate",
+    "name": "Whey protein concentrate",
+    "description": "High-protein product extracted from whey, popular in sports nutrition.",
+    "availableDataTypes": [
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "ch-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "futures": "outdated",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "price": "current"
+      },
+      "ch-vpi": {
+        "price": "outdated"
+      }
+    }
+  },
+  {
+    "id": "whey-protein-isolate",
+    "name": "Whey protein isolate",
+    "description": "Pure whey protein with minimal fat and lactose content.",
+    "availableDataTypes": [
+      "exports",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "outdated",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "price": "outdated"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "casein",
+    "name": "Casein",
+    "description": "Milk protein used in cheese production and food processing industries.",
+    "availableDataTypes": [
+      "imports",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "ca-vpi",
+      "eu-dairy-market-news",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "eu-dairy-market-news": {
+        "imports": "current"
+      },
+      "nz-vpi": {
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "ca-vpi": {
+        "imports": "outdated",
+        "production": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "ghee",
+    "name": "Ghee",
+    "description": "Clarified butter used extensively in South Asian and Middle Eastern cuisines.",
+    "availableDataTypes": [
+      "exports",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nl-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "outdated"
+      },
+      "ca-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "outdated"
+      },
+      "br-vpi": {
+        "exports": "current",
+        "price": "current"
+      },
+      "nl-vpi": {
+        "exports": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "evaporated-milk",
+    "name": "Evaporated milk",
+    "description": "Concentrated milk product with about 60% water removed.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price",
+      "supply-demand",
+      "technical-indicators"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current",
+        "technical-indicators": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current",
+        "technical-indicators": "outdated"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current",
+        "technical-indicators": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "current",
+        "supply-demand": "outdated",
+        "technical-indicators": "current"
+      }
+    }
+  },
+  {
+    "id": "condensed-milk",
+    "name": "Condensed milk",
+    "description": "Sweetened concentrated milk, commonly used in desserts and beverages.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "imports",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "outdated",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "production": "outdated",
+        "supply-demand": "outdated"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "imports": "outdated",
+        "production": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "milk-fat",
+    "name": "Milk fat",
+    "description": "Pure fat component extracted from milk, used in various dairy applications.",
+    "availableDataTypes": [
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "ch-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "futures": "outdated",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "price": "outdated"
+      },
+      "ch-vpi": {
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "lactose",
+    "name": "Lactose",
+    "description": "Milk sugar extracted from whey, used in food and pharmaceutical industries.",
+    "availableDataTypes": [
+      "exports",
+      "price",
+      "technical-indicators"
+    ],
+    "sources": [
+      "ar-senasa",
+      "au-dairy-australia",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "outdated",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "nz-vpi": {
+        "exports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "au-dairy-australia": {
+        "exports": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "exports": "current",
+        "price": "outdated",
+        "technical-indicators": "current"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "yogurt",
+    "name": "Yogurt",
+    "description": "Fermented milk product with probiotics, consumed worldwide.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "nz-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "au-dairy-australia": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "ca-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "outdated",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "sour-cream",
+    "name": "Sour cream",
+    "description": "Cultured cream product used as condiment and ingredient.",
+    "availableDataTypes": [
+      "futures",
+      "imports",
+      "price",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "au-dairy-australia",
+      "br-vpi",
+      "ca-vpi",
+      "eu-vpi",
+      "nz-vpi"
+    ],
+    "group": "dairy",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "nz-vpi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "production": "outdated",
+        "supply-demand": "current"
+      },
+      "ca-vpi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "outdated",
+        "production": "current",
+        "supply-demand": "outdated"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "au-dairy-australia": {
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "palm-oil",
+    "name": "Palm oil",
+    "description": "Most widely produced vegetable oil, used in food, cosmetics, and biofuels.",
+    "availableDataTypes": [
+      "exports",
+      "futures",
+      "price",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ua-vpi",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "outdated",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "outdated"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "outdated",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "exports": "outdated",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "my-mpob": {
+        "exports": "current",
+        "futures": "current",
+        "price": "outdated",
+        "supply-demand": "current"
+      },
+      "id-paspi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "ua-vpi": {
+        "exports": "current",
+        "price": "current",
+        "supply-demand": "outdated"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "outdated"
+      }
+    }
+  },
+  {
+    "id": "palm-olein",
+    "name": "Palm olein",
+    "description": "Liquid fraction of palm oil, commonly used for cooking.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "outdated",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "palm-stearin",
+    "name": "Palm stearin",
+    "description": "Solid fraction of palm oil, used in food processing.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "futures",
+      "production",
+      "supply-demand",
+      "technical-indicators"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "exports": "current",
+        "futures": "current",
+        "production": "current",
+        "supply-demand": "current",
+        "technical-indicators": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "futures": "current",
+        "production": "current",
+        "supply-demand": "current",
+        "technical-indicators": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "futures": "current",
+        "production": "current",
+        "supply-demand": "outdated",
+        "technical-indicators": "current"
+      },
+      "id-paspi": {
+        "ai-forecast": "current",
+        "exports": "outdated",
+        "futures": "current",
+        "production": "current",
+        "supply-demand": "current",
+        "technical-indicators": "current"
+      }
+    }
+  },
+  {
+    "id": "coconut-oil",
+    "name": "Coconut oil",
+    "description": "Lauric acid-rich oil extracted from coconut, popular in cooking and cosmetics.",
+    "availableDataTypes": [
+      "exports",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ua-vpi",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "outdated"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "my-mpob": {
+        "exports": "current",
+        "futures": "current",
+        "price": "outdated"
+      },
+      "id-paspi": {
+        "exports": "current",
+        "futures": "current",
+        "price": "outdated"
+      },
+      "ua-vpi": {
+        "exports": "current",
+        "price": "outdated"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "palm-kernel-oil",
+    "name": "Palm kernel oil",
+    "description": "Oil extracted from palm kernel, similar properties to coconut oil.",
+    "availableDataTypes": [
+      "exports",
+      "futures",
+      "imports"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ua-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "futures": "current",
+        "imports": "outdated"
+      },
+      "ar-senasa": {
+        "exports": "outdated",
+        "imports": "current"
+      },
+      "br-vpi": {
+        "exports": "outdated",
+        "futures": "outdated",
+        "imports": "current"
+      },
+      "my-mpob": {
+        "exports": "outdated",
+        "futures": "current",
+        "imports": "current"
+      },
+      "id-paspi": {
+        "exports": "current",
+        "futures": "current",
+        "imports": "outdated"
+      },
+      "ua-vpi": {
+        "exports": "current",
+        "imports": "current"
+      }
+    }
+  },
+  {
+    "id": "soybean-oil",
+    "name": "Soybean oil",
+    "description": "Most consumed vegetable oil globally, extracted from soybeans.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "price": "outdated"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "price": "outdated"
+      },
+      "id-paspi": {
+        "ai-forecast": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "rapeseed-oil",
+    "name": "Rapeseed oil",
+    "description": "Canola oil derived from rapeseed, widely used for cooking.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "futures",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "exports": "current",
+        "futures": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "futures": "current",
+        "supply-demand": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "futures": "outdated",
+        "supply-demand": "current"
+      },
+      "id-paspi": {
+        "ai-forecast": "current",
+        "exports": "outdated",
+        "futures": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "sunflower-oil",
+    "name": "Sunflower oil",
+    "description": "Light, neutral-flavored oil extracted from sunflower seeds.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ua-vpi"
+    ],
+    "group": "oils-fats",
+    "popular": true,
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "exports": "outdated",
+        "futures": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "price": "outdated"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "exports": "outdated",
+        "futures": "current",
+        "price": "outdated"
+      },
+      "id-paspi": {
+        "ai-forecast": "outdated",
+        "exports": "current",
+        "futures": "current",
+        "price": "outdated"
+      },
+      "ua-vpi": {
+        "exports": "outdated",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "description": "Premium oil from olives, valued for flavor and health benefits.",
+    "availableDataTypes": [
+      "futures",
+      "imports",
+      "price",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ru-rosstat"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "outdated",
+        "imports": "current",
+        "price": "current",
+        "supply-demand": "outdated"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "my-mpob": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "id-paspi": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "supply-demand": "outdated"
+      },
+      "ar-senasa": {
+        "imports": "outdated",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "cn-ndrc": {
+        "imports": "current",
+        "price": "current",
+        "supply-demand": "current"
+      },
+      "ru-rosstat": {
+        "imports": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "tallow",
+    "name": "Tallow",
+    "description": "Rendered animal fat, primarily from beef, used in food and industrial applications.",
+    "availableDataTypes": [
+      "exports",
+      "imports",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "exports": "current",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "exports": "current",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "exports": "current",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "my-mpob": {
+        "exports": "current",
+        "imports": "outdated",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "id-paspi": {
+        "exports": "outdated",
+        "imports": "current",
+        "production": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "lard",
+    "name": "Lard",
+    "description": "Pork fat rendered and used in cooking and baking applications.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "imports",
+      "price",
+      "technical-indicators"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "ru-rosstat"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "imports": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "outdated",
+        "imports": "current",
+        "price": "current"
+      },
+      "ru-rosstat": {
+        "imports": "current"
+      }
+    }
+  },
+  {
+    "id": "fish-oil",
+    "name": "Fish oil",
+    "description": "Oil extracted from fish, rich in omega-3 fatty acids.",
+    "availableDataTypes": [
+      "futures",
+      "price",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "outdated"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "my-mpob": {
+        "futures": "current",
+        "price": "outdated",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "id-paspi": {
+        "futures": "outdated",
+        "price": "outdated",
+        "production": "current",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "soybean-meal",
+    "name": "Soybean meal",
+    "description": "High-protein byproduct of soybean oil extraction, used in animal feed.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "imports"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "ru-rosstat"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "imports": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "imports": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "imports": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "current",
+        "imports": "outdated"
+      },
+      "ru-rosstat": {
+        "imports": "current"
+      }
+    }
+  },
+  {
+    "id": "rapeseed-meal",
+    "name": "Rapeseed meal",
+    "description": "Protein-rich meal remaining after rapeseed oil extraction.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "imports",
+      "price",
+      "technical-indicators"
+    ],
+    "sources": [
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "id-paspi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      },
+      "us-vpi": {
+        "futures": "current",
+        "price": "current",
+        "technical-indicators": "current"
+      }
+    }
+  },
+  {
+    "id": "sunflower-meal",
+    "name": "Sunflower meal",
+    "description": "Feed ingredient produced from sunflower seed oil processing.",
+    "availableDataTypes": [
+      "futures",
+      "imports",
+      "price",
+      "production",
+      "supply-demand"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "my-mpob",
+      "ru-rosstat"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "futures": "current",
+        "imports": "outdated",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "br-vpi": {
+        "futures": "current",
+        "imports": "outdated",
+        "price": "outdated",
+        "production": "outdated",
+        "supply-demand": "outdated"
+      },
+      "my-mpob": {
+        "futures": "current",
+        "imports": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "ar-senasa": {
+        "imports": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "cn-ndrc": {
+        "imports": "current",
+        "price": "current",
+        "production": "current",
+        "supply-demand": "current"
+      },
+      "ru-rosstat": {
+        "imports": "current",
+        "production": "outdated",
+        "supply-demand": "current"
+      }
+    }
+  },
+  {
+    "id": "palm-kernel-meal",
+    "name": "Palm kernel meal",
+    "description": "Feed byproduct from palm kernel oil production.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "my-mpob",
+      "us-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "current",
+        "price": "outdated"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "price": "current"
+      },
+      "us-vpi": {
+        "futures": "outdated",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "castor-oil",
+    "name": "Castor oil",
+    "description": "Industrial oil from castor beans, used in manufacturing and cosmetics.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "outdated",
+        "futures": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "futures": "outdated"
+      },
+      "id-paspi": {
+        "ai-forecast": "current",
+        "futures": "current"
+      }
+    }
+  },
+  {
+    "id": "linseed-oil",
+    "name": "Linseed oil",
+    "description": "Flaxseed-derived oil used in paints, varnishes, and nutritional supplements.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "exports",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "eu-vpi",
+      "id-paspi",
+      "my-mpob",
+      "ua-vpi"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "price": "outdated"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "price": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "outdated",
+        "exports": "current",
+        "price": "current"
+      },
+      "id-paspi": {
+        "ai-forecast": "current",
+        "exports": "current",
+        "price": "current"
+      },
+      "ua-vpi": {
+        "exports": "current",
+        "price": "current"
+      }
+    }
+  },
+  {
+    "id": "cottonseed-oil",
+    "name": "Cottonseed oil",
+    "description": "Vegetable oil from cotton seeds, used in food processing and industrial applications.",
+    "availableDataTypes": [
+      "ai-forecast",
+      "futures",
+      "imports",
+      "price"
+    ],
+    "sources": [
+      "ar-senasa",
+      "br-vpi",
+      "cn-ndrc",
+      "eu-vpi",
+      "my-mpob",
+      "ru-rosstat"
+    ],
+    "group": "oils-fats",
+    "dataTypeSourceStatus": {
+      "eu-vpi": {
+        "ai-forecast": "current",
+        "futures": "outdated",
+        "imports": "current",
+        "price": "current"
+      },
+      "ar-senasa": {
+        "ai-forecast": "current",
+        "imports": "current",
+        "price": "current"
+      },
+      "br-vpi": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "price": "current"
+      },
+      "cn-ndrc": {
+        "ai-forecast": "outdated",
+        "imports": "current",
+        "price": "current"
+      },
+      "my-mpob": {
+        "ai-forecast": "current",
+        "futures": "current",
+        "imports": "current",
+        "price": "current"
+      },
+      "ru-rosstat": {
+        "imports": "current"
+      }
+    }
+  }
+]

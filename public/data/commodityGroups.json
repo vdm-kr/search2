@@ -1,0 +1,53 @@
+[
+  {
+    "id": "dairy",
+    "name": "Dairy",
+    "commodities": [
+      "butter",
+      "butter-82",
+      "butterfat-class-i",
+      "butterfat-class-ii",
+      "bmp",
+      "cheddar",
+      "mozzarella",
+      "cream-cheese",
+      "skim-milk-powder",
+      "whole-milk-powder",
+      "whey-protein-concentrate",
+      "whey-protein-isolate",
+      "casein",
+      "ghee",
+      "evaporated-milk",
+      "condensed-milk",
+      "milk-fat",
+      "lactose",
+      "yogurt",
+      "sour-cream"
+    ]
+  },
+  {
+    "id": "oils-fats",
+    "name": "Oils & fats",
+    "commodities": [
+      "palm-oil",
+      "palm-olein",
+      "palm-stearin",
+      "coconut-oil",
+      "palm-kernel-oil",
+      "soybean-oil",
+      "rapeseed-oil",
+      "sunflower-oil",
+      "olive-oil",
+      "tallow",
+      "lard",
+      "fish-oil",
+      "soybean-meal",
+      "rapeseed-meal",
+      "sunflower-meal",
+      "palm-kernel-meal",
+      "castor-oil",
+      "linseed-oil",
+      "cottonseed-oil"
+    ]
+  }
+]

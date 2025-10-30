@@ -1,0 +1,50 @@
+[
+  {
+    "id": "price",
+    "name": "Prices",
+    "group": "Prices",
+    "sources": ["us-vpi", "eu-vpi", "us-ndpsr", "eu-dairy-market-news", "east-eu-vpi", "nz-vpi", "au-dairy-australia", "ca-vpi", "ar-senasa", "br-vpi", "ch-vpi", "fr-france-agrimer", "de-dlv", "nl-vpi", "pl-kowr", "gb-dairy-uk", "ie-teagasc", "dk-danish-dairy", "it-ismea", "cn-ndrc", "my-mpob", "id-paspi", "ua-vpi", "mx-sagarpa"]
+  },
+  {
+    "id": "ai-forecast",
+    "name": "AI forecast",
+    "group": "AI forecast",
+    "sources": ["eu-vpi", "us-ndpsr", "eu-dairy-market-news", "nz-vpi", "au-dairy-australia", "ca-vpi", "ar-senasa", "br-vpi", "fr-france-agrimer", "it-ismea", "cn-ndrc", "my-mpob", "id-paspi"]
+  },
+  {
+    "id": "futures",
+    "name": "Futures",
+    "group": "Futures",
+    "sources": ["eu-vpi", "us-vpi", "nz-vpi", "ca-vpi", "br-vpi", "my-mpob", "id-paspi"]
+  },
+  {
+    "id": "imports",
+    "name": "Import and export",
+    "group": "Import and export",
+    "sources": ["us-ndpsr", "eu-vpi", "eu-dairy-market-news", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "fr-france-agrimer", "de-dlv", "it-ismea", "cn-ndrc", "ru-rosstat", "my-mpob", "id-paspi", "in-amul", "ua-vpi", "mx-sagarpa"]
+  },
+  {
+    "id": "exports",
+    "name": "Import and export",
+    "group": "Import and export",
+    "sources": ["us-ndpsr", "eu-vpi", "nz-vpi", "au-dairy-australia", "ca-vpi", "ar-senasa", "br-vpi", "nl-vpi", "pl-kowr", "gb-dairy-uk", "ie-teagasc", "dk-danish-dairy", "my-mpob", "id-paspi", "ua-vpi"]
+  },
+  {
+    "id": "production",
+    "name": "Production",
+    "group": "Production",
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "fr-france-agrimer", "it-ismea", "cn-ndrc", "ru-rosstat", "my-mpob", "id-paspi"]
+  },
+  {
+    "id": "supply-demand",
+    "name": "Supply and demand",
+    "group": "Supply and demand",
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "pl-kowr", "cn-ndrc", "ru-rosstat", "my-mpob", "id-paspi", "ua-vpi"]
+  },
+  {
+    "id": "technical-indicators",
+    "name": "Technical indicators",
+    "group": "Technical indicators",
+    "sources": ["us-vpi", "eu-vpi", "nz-vpi", "ca-vpi", "br-vpi", "my-mpob", "id-paspi"]
+  }
+]

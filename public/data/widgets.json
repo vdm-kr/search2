@@ -1,0 +1,152 @@
+[
+  {
+    "id": "forecast-prices",
+    "title": "Forecast prices",
+    "description": "Inspect Vespers unique Forecasted prices data using this chart.",
+    "dataTypes": ["ai-forecast"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "br-vpi", "cn-ndrc"],
+    "visualType": "chart",
+    "category": "Forecast",
+    "icon": "Forecast.svg"
+  },
+  {
+    "id": "forecast-production",
+    "title": "Forecast production",
+    "description": "Check out our forecasted production data using this chart.",
+    "dataTypes": ["ai-forecast", "production"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi"],
+    "visualType": "chart",
+    "category": "Forecast",
+    "icon": "Bars.svg"
+  },
+  {
+    "id": "futures-graph",
+    "title": "Futures graph",
+    "description": "Shows the forward prices from all the major Exchanges.",
+    "dataTypes": ["futures"],
+    "sources": ["eu-vpi", "us-vpi", "nz-vpi", "br-vpi", "my-mpob", "id-paspi"],
+    "visualType": "chart",
+    "category": "Futures",
+    "icon": "Exchange.svg"
+  },
+  {
+    "id": "futures-table",
+    "title": "Futures table",
+    "description": "Shows forward prices from all the major Exchanges in a table.",
+    "dataTypes": ["futures"],
+    "sources": ["eu-vpi", "us-vpi", "nz-vpi", "ca-vpi", "br-vpi", "my-mpob", "id-paspi"],
+    "visualType": "table",
+    "category": "Futures",
+    "icon": "Table.svg"
+  },
+  {
+    "id": "futures-historical-settle-graph",
+    "title": "Futures historical settle graph",
+    "description": "Shows historically settled prices from all the major Exchanges.",
+    "dataTypes": ["futures"],
+    "sources": ["eu-vpi", "us-vpi", "nz-vpi", "br-vpi", "my-mpob", "id-paspi"],
+    "visualType": "chart",
+    "category": "Futures",
+    "icon": "Calendar.svg"
+  },
+  {
+    "id": "import-export-table",
+    "title": "Import/export table",
+    "description": "Track global trade streams in table view with a detailed breakdown of both origin and destination countries and regions.",
+    "dataTypes": ["imports", "exports"],
+    "sources": ["eu-vpi", "us-ndpsr", "cn-ndrc", "ru-rosstat", "in-amul", "mx-sagarpa"],
+    "visualType": "table",
+    "category": "Import and export",
+    "icon": "Table.svg"
+  },
+  {
+    "id": "import-export-country-to-country-graph",
+    "title": "Import/export country to country graph",
+    "description": "An overview of the past 5 years of trade data for one specific trade route between countries or regions. This widget shows historical trends and changes in both absolute and relative volumes, values, and prices.",
+    "dataTypes": ["imports", "exports"],
+    "sources": ["us-ndpsr", "eu-vpi", "nz-vpi", "ar-senasa", "br-vpi", "cn-ndrc"],
+    "visualType": "chart",
+    "category": "Import and export",
+    "icon": "Transport.svg"
+  },
+  {
+    "id": "import-export-top-country",
+    "title": "Import/export top country",
+    "description": "Easily identify the top contributing countries involved in the import and export of a specific product to or from a particular country or region.",
+    "dataTypes": ["imports", "exports"],
+    "sources": ["us-ndpsr", "eu-vpi", "nz-vpi", "ar-senasa", "br-vpi", "cn-ndrc", "ru-rosstat"],
+    "visualType": "chart",
+    "category": "Import and export",
+    "icon": "Bars 2.svg"
+  },
+  {
+    "id": "total-import-export-graph",
+    "title": "Total import/export graph",
+    "description": "An overview of the past 5 years of trade data per country or region. This widget shows historical trends and changes in both absolute and relative volumes, values, and prices of global imports and exports.",
+    "dataTypes": ["imports", "exports"],
+    "sources": ["us-ndpsr", "eu-vpi", "nz-vpi", "au-dairy-australia", "ar-senasa", "br-vpi", "cn-ndrc"],
+    "visualType": "chart",
+    "category": "Import and export",
+    "icon": "two-lines.svg"
+  },
+  {
+    "id": "prices",
+    "title": "Prices",
+    "description": "Easily access all prices, including Vesper Price Index (VPI), partner prices, and public quotations. You can find the latest pricing and track historical price developments. The bookmarking feature lets you save and navigate prices effortlessly, viewing one product from multiple sources simultaneously.",
+    "dataTypes": ["price"],
+    "sources": ["us-vpi", "eu-vpi", "east-eu-vpi", "nz-vpi", "au-dairy-australia", "ca-vpi", "br-vpi", "nl-vpi"],
+    "visualType": "chart",
+    "category": "Prices",
+    "icon": "line.svg"
+  },
+  {
+    "id": "production-volumes",
+    "title": "Production volumes",
+    "description": "Compare prices of different products using this chart.",
+    "dataTypes": ["production"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi"],
+    "visualType": "chart",
+    "category": "Production",
+    "icon": "Bars 3.svg"
+  },
+  {
+    "id": "supply-demand-map",
+    "title": "Supply and demand map",
+    "description": "World map of supply and demand data showing a visual overview of global trends and changes.",
+    "dataTypes": ["supply-demand"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "cn-ndrc", "ru-rosstat"],
+    "visualType": "chart",
+    "category": "Supply and demand",
+    "icon": "Map.svg"
+  },
+  {
+    "id": "supply-demand-graph",
+    "title": "Supply and demand graph",
+    "description": "Graph overview showing production, consumption, import, export, and stock levels, providing a snapshot of fundamentals for various products and countries/regions.",
+    "dataTypes": ["supply-demand"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "cn-ndrc", "ru-rosstat", "my-mpob", "id-paspi"],
+    "visualType": "chart",
+    "category": "Supply and demand",
+    "icon": "Bars 4.svg"
+  },
+  {
+    "id": "supply-demand-table",
+    "title": "Supply and demand table",
+    "description": "Annual supply and demand balance sheet per product and country/region, showing production, consumption, import, export, and stock levels.",
+    "dataTypes": ["supply-demand"],
+    "sources": ["eu-vpi", "us-ndpsr", "nz-vpi", "ca-vpi", "ar-senasa", "br-vpi", "pl-kowr", "cn-ndrc", "ru-rosstat"],
+    "visualType": "table",
+    "category": "Supply and demand",
+    "icon": "Table.svg"
+  },
+  {
+    "id": "technical-analysis",
+    "title": "Technical analysis",
+    "description": "Shows technical indicators, such as Moving average, RSI and MACD for various prices.",
+    "dataTypes": ["technical-indicators", "price"],
+    "sources": ["us-vpi", "eu-vpi", "nz-vpi", "ca-vpi", "br-vpi", "my-mpob", "id-paspi"],
+    "visualType": "chart",
+    "category": "Technical indicators",
+    "icon": "Calculations.svg"
+  }
+]
